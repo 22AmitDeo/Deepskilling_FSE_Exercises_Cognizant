@@ -1,0 +1,19 @@
+function GuestPage() {
+    return (
+        <div>
+            <h2>Welcome Guest</h2>
+
+            <h3>Available Flights</h3>
+
+            <ul>
+                <li>Delhi → Mumbai</li>
+                <li>Chennai → Bangalore</li>
+                <li>Hyderabad → Kolkata</li>
+            </ul>
+
+            <p>Please login to book your tickets.</p>
+        </div>
+    );
+}
+
+export default GuestPage;
